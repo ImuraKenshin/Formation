@@ -1,0 +1,62 @@
+{
+  "entreprise": {
+    "nomCommercial": "Dehors! - Escape Game Paris",
+    "phraseAccroche": "Découvrez l'aventure ultime avec Dehors!, votre destination d'escape game à Paris",
+    "texteAppelAction": "Réservez votre aventure",
+    "avantagesClients": [
+      {"picto" :"world-map.png",
+        "texte":"Ambiances immersives dans des décors soigneusement conçus"
+      },
+      {
+        "picto" : "Compass.png",
+        "texte" : "Maîtres du jeu passionnés pour vous guider"
+      },
+      {
+        "picto" : "puzzle.png",
+        "texte": "Énigmes captivantes pour des expériences uniques"
+      }
+    
+      
+    ],
+    "activites": [
+      {
+        "nom": "Mystère du Manoir",
+        "image" :"manoir.png" ,
+        "description": "Explorez un manoir mystérieux rempli d'énigmes et de mystères. Parviendrez-vous à résoudre les énigmes et à vous échapper avant que le temps ne s'écoule ?"
+      },
+      {
+        "nom": "Évasion dans l'Espace",
+        "image" : "espace.png",
+        "description": "Voyagez dans l'espace et relevez des défis intergalactiques. Une aventure cosmique qui mettra à l'épreuve votre esprit d'équipe et votre ingéniosité."
+      },
+      {
+        "nom": "Mission Secrète: Paris",
+        "image": "louvre.png",
+        "description": "Plongez dans une mission secrète au cœur de Paris. Résolvez des énigmes pour déjouer les complots et accomplir votre mission dans la Ville Lumière."
+      }
+    ],
+    "temoignages": [
+      {
+        "prenom": "Alexandre",
+        "photo" :"alexandre.png",
+        "typeExperience": "Mystère du Manoir",
+        "note": 5,
+        "commentaire": "L'expérience du Mystère du Manoir chez Dehors! était incroyable. Les énigmes étaient stimulantes, et l'atmosphère était parfaitement captivante. À refaire !"
+      },
+      {
+        "prenom": "Camille",
+        "photo" : "camille.png",
+        "typeExperience": "Évasion dans l'Espace",
+        "note": 5,
+        "commentaire": "Une aventure spatiale passionnante chez Dehors! L'évasion dans l'espace était pleine de rebondissements. Nous avons adoré chaque minute de cette expérience unique."
+      },
+      {
+        "prenom": "Lucie",
+        "photo" : "Lucie.png",
+        "typeExperience": "Mission Secrète: Paris",
+        "note": 4,
+        "commentaire": "La Mission Secrète: Paris chez Dehors! était une expérience mémorable. Les énigmes étaient intelligentes, et l'intrigue nous a tenus en haleine. Recommandé à tous les amateurs d'escape game !"
+      }
+    ]
+  }
+}

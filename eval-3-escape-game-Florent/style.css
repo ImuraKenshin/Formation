@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2E2A7;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+h1{
+    font-family: "Teko", sans-serif;
+    font-size: 64px;
+    color: white;
+}
+h2{
+    font-family: "Teko",sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+h3{
+    font-family: "Teko",sans-serif;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+h4{
+    font-family: "Teko",sans-serif;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: white;
+}
+h5{
+    font-family: "Teko",sans-serif;
+    font-size: 24px;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+a{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+    /* dimention */
+
+.large-1 {
+    width: calc(8.3333333333% - 14.6666666667px);
+}
+
+.large-2 {
+    width: calc(16.6666666667% - 13.3333333333px);
+}
+
+.large-3 {
+    width: calc(25% - 12px);
+}
+
+.large-4 {
+    width: calc(33.3333333333% - 10.6666666667px);
+}
+
+.large-5 {
+    width: calc(41.6666666667% - 9.3333333333px);
+}
+
+.large-6 {
+    width: calc(50% - 8px);
+}
+
+.large-7 {
+    width: calc(58.3333333333% - 6.6666666667px);
+}
+
+.large-8 {
+    width: calc(66.6666666667% - 5.3333333333px);
+}
+
+.large-9 {
+    width: calc(75% - 4px);
+}
+
+.large-10 {
+    width: calc(83.3333333333% - 2.6666666667px);
+}
+
+.large-11 {
+    width: calc(91.6666666667% - 1.3333333333px);
+}
+
+.large-12 {
+    width: calc(100% - 0px);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.bold{
+    font-weight: bold;
+}
+.picto{
+    width: 100px;
+    height: 100px;
+}
+
+.button{
+    background-color: #F2C012;
+    padding: 10px 40px;    
+}
+.alignCenter{
+    text-align: center;
+}
+
+/* banniere */
+.banniere{
+    position: relative;
+    height: 100vh;
+}
+.banniereImg{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.banniereImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.paraTitre{
+    width: 20%;
+    color: white;
+}
+.banniereContent{
+    justify-content: center;
+    align-content: center;
+    gap : 30px;
+    height: 100vh;
+}
+.buttonContainer{
+    justify-content: center;
+}
+/* ACTIVITE */
+
+
+.articleContent{
+    background-color: white;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    padding: 5px;
+    gap: 16px;
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+}
+
+/* infoJeu */
+.infoJeu{
+    background-color: #0D0401;
+    padding: 0 250px;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.infoJeuContent{
+    justify-content: center;
+    align-content: center;
+    gap : 30px;
+}
+.infoJeuImg{
+    justify-content: center;
+}
+.paraInfoJeu{
+    color: #F2C012;
+}
+
+
+/* descriptionJeu */
+
+.descriptionJeu{
+    margin : 150px auto;
+    gap: 150px;
+}
+.description{
+    align-items: center;
+}
+.imgDroite{
+    background-color: white;
+    padding: 10px 5px 0 5px;
+    box-shadow: 80px -80px 5px rgba(0,0,0,1);
+}
+.imgGauche{
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow: -80px -80px 5px rgba(0,0,0,1);
+}
+
+/* AVIS */
+.avisContainer{
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+.avisImg{
+    width: 100px;
+    height: 100px;
+}
+.avisImg img {
+    border-radius: 50%;
+}
+.avis{
+    background-color: white;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    padding: 5px;
+}
+.profil{
+    gap: 10px;
+}
+.profilContent{
+    align-content: center;
+}
+
+.etoile {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    color: gold;
+    font-size: 1.5rem;
+}
+
+/* footer */
+footer{
+    background-color: #0D0401;
+    padding: 100px 0;
+}
+.footerContent{
+    gap: 200px;
+}
+.footerContent p{
+    color: white;
+}
+.addressContent{
+    align-items: center;
+    gap: 16px;
+}
+.pictoFooter{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* responsive */
+
+@media all and (max-width: 1200px) {
+    .average-1 {
+        width: calc(8.3333333333% - 14.6666666667px);
+    }
+
+    .average-2 {
+        width: calc(16.6666666667% - 13.3333333333px);
+    }
+
+    .average-3 {
+        width: calc(25% - 12px);
+    }
+
+    .average-4 {
+        width: calc(33.3333333333% - 10.6666666667px);
+    }
+
+    .average-5 {
+        width: calc(41.6666666667% - 9.3333333333px);
+    }
+
+    .average-6 {
+        width: calc(50% - 8px);
+    }
+
+    .average-7 {
+        width: calc(58.3333333333% - 6.6666666667px);
+    }
+
+    .average-8 {
+        width: calc(66.6666666667% - 5.3333333333px);
+    }
+
+    .average-9 {
+        width: calc(75% - 4px);
+    }
+
+    .average-10 {
+        width: calc(83.3333333333% - 2.6666666667px);
+    }
+
+    .average-11 {
+        width: calc(91.6666666667% - 1.3333333333px);
+    }
+
+    .average-12 {
+        width: calc(100% - 0px);
+    }
+    /* general */
+    .button{
+        padding: 10px 20px;    
+    }
+
+    /* banniere */
+    .paraTitre{
+        width: 35%;
+        color: white;
+    }
+    /* activites */
+    .articleContent{
+        width: 250px;
+        justify-content: space-around;
+    }
+    /* infoJeu*/
+    .infoJeu{
+        padding: 0 150px;
+    }
+    /*descriptionJeu*/
+    .description{
+        margin: 0 auto;
+    }
+    .imgDroite{
+        box-shadow: 50px -50px 5px rgba(0,0,0,1);
+    }
+    .imgGauche{
+        box-shadow: -50px -50px 5px rgba(0,0,0,1);
+    }
+    /*avis*/
+    .sectionAvis h3{
+        padding-left: 50px;
+
+    }
+}
+
+@media all and (max-width: 900px) {
+    .medium-1 {
+        width: calc(8.3333333333% - 14.6666666667px);
+    }
+
+    .medium-2 {
+        width: calc(16.6666666667% - 13.3333333333px);
+    }
+
+    .medium-3 {
+        width: calc(25% - 12px);
+    }
+
+    .medium-4 {
+        width: calc(33.3333333333% - 10.6666666667px);
+    }
+
+    .medium-5 {
+        width: calc(41.6666666667% - 9.3333333333px);
+    }
+
+    .medium-6 {
+        width: calc(50% - 8px);
+    }
+
+    .medium-7 {
+        width: calc(58.3333333333% - 6.6666666667px);
+    }
+
+    .medium-8 {
+        width: calc(66.6666666667% - 5.3333333333px);
+    }
+
+    .medium-9 {
+        width: calc(75% - 4px);
+    }
+
+    .medium-10 {
+        width: calc(83.3333333333% - 2.6666666667px);
+    }
+
+    .medium-11 {
+        width: calc(91.6666666667% - 1.3333333333px);
+    }
+
+    .medium-12 {
+        width: calc(100% - 0px);
+    }
+    /* banniere */
+    .paraTitre{
+        width: 50%;
+        color: white;
+    }
+    /* activites */
+    .articleContainer{
+        justify-content: center;
+        gap: 50px;
+        margin: 50px 0;
+    }
+    .articleContent{
+        width: 500px;
+        height: 600px;
+        justify-content: space-around;
+        position: relative;
+        bottom: 0;
+    }
+    h2{
+        font-size: 36px;
+    }
+    /* infoJeu*/
+    .infoJeu{
+        padding: 0 50px;
+    }
+    /*descriptionJeu*/
+    .description{
+        margin: 0 auto;
+    }
+    .imgDroite{
+        box-shadow: 40px -40px 5px rgba(0,0,0,1);
+    }
+    .imgGauche{
+        box-shadow: -40px -40px 5px rgba(0,0,0,1);
+    }
+    /*avis*/
+    .sectionAvis h3{
+        margin-bottom: 50px;
+
+    }
+    .avisContainer{
+        gap: 50px;
+    }
+    /*footer*/
+    .footerContent{
+        gap: 50px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .small-1 {
+        width: calc(8.3333333333% - 14.6666666667px);
+    }
+
+    .small-2 {
+        width: calc(16.6666666667% - 13.3333333333px);
+    }
+
+    .small-3 {
+        width: calc(25% - 12px);
+    }
+
+    .small-4 {
+        width: calc(33.3333333333% - 10.6666666667px);
+    }
+
+    .small-5 {
+        width: calc(41.6666666667% - 9.3333333333px);
+    }
+
+    .small-6 {
+        width: calc(50% - 8px);
+    }
+
+    .small-7 {
+        width: calc(58.3333333333% - 6.6666666667px);
+    }
+
+    .small-8 {
+        width: calc(66.6666666667% - 5.3333333333px);
+    }
+
+    .small-9 {
+        width: calc(75% - 4px);
+    }
+
+    .small-10 {
+        width: calc(83.3333333333% - 2.6666666667px);
+    }
+
+    .small-11 {
+        width: calc(91.6666666667% - 1.3333333333px);
+    }
+
+    .small-12 {
+        width: calc(100% - 0px);
+    }
+    /* general */
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    p{
+        font-size: 16px;
+    }
+    /* activites */
+    .articleContainer{
+        gap: 25px;
+        margin: 25px 0;
+    }
+    .articleContent{
+        width: 300px;
+        justify-content: space-around;
+    }
+    /* infoJeu*/
+    .infoJeu{
+        padding: 0 20px;
+        height: 800px;
+    }
+     /*descriptionJeu*/
+     .description{
+        margin: 0 auto;
+        flex-direction: column;
+        height: 450px;
+    }
+    
+    .imgDroite{
+        box-shadow: 30px -30px 5px rgba(0,0,0,1);
+    }
+    .imgGauche{
+        box-shadow: -30px -30px 5px rgba(0,0,0,1);
+    }
+    .flexDirection{
+        flex-direction: column-reverse;
+    }
+    /*avis*/
+    .sectionAvis{
+        margin-bottom: 25px;
+    }
+    .sectionAvis h3{
+        padding-left: 10px;
+        margin-bottom: 25px;
+    }
+    .avisContainer{
+        gap: 16px;
+    }
+}
